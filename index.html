@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="icofont.min.css">
+  </head>
+  <style>
+    * {
+      color: #161616;
+      font-family: 'Jost', serif;
+      letter-spacing: 1px;
+      font-size: 62.5%;
+
+    }
+
+    body {
+      background-color: #E0E0E0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    footer {
+      font-size: 2.2rem;
+      width: 100%;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: space-evenly;
+
+    }
+
+    li {
+      display: inline-block;
+      padding: 20px;
+      font-size: 1.7rem;
+    }
+
+    li > a {
+      font-size: 1.7rem;
+    }
+
+    #landing {
+      height: calc(100vh - 65px);
+      width: 100%;
+      text-align: center;
+      background: url(bkg.jpg) 0 0 no-repeat;
+      background-size: cover;
+      filter: grayscale(1);
+    }
+
+    p {
+      font-size: 1.9rem;
+    }
+
+    p > span {
+      font-size: 1.7rem;
+      font-style: italic;
+    }
+
+    #landing > #logobar {
+      padding-top: 50px;
+    }
+
+    #landing > #logobar > img {
+      width: 350px;
+
+    }
+
+    form {
+      width: 300px;
+    }
+
+    input {
+      width: 200px;
+      margin-bottom: 20px;
+      font-size: 1.9rem;
+    }
+
+    button {
+      width: 200px;
+      margin-bottom: 20px;
+      font-size: 1.9rem;
+    }
+
+    .icofont-instagram,
+    .icofont-facebook {
+      font-size: 2.2rem;
+    }
+
+    @media screen and (min-width: 48em) {
+      #landing > #logobar > img {
+        width: auto;
+      }
+
+      #landing > #logobar {
+        padding-top: 400px;
+      }
+    }
+  </style>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="mailto:henrik@http418.se?subject=Re:Interior Design">Interior design</a></li>
+        <li><a href="#tva">Organizing</a></li>
+        <li>Home Cleaning Service</li>
+        <li><a href="#tva">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="landing">
+      <div id="logobar">
+        <!--
+        Photo by Miguel A. Padrinan from Pexels
+        -->
+        <p>Saaph Ghar</p>
+        <img src="logo.png" />
+        <p>Your pursuit - Our passion</p>
+        <p style="width: 500px; margin: 0 auto; margin-top: 100px;">
+          <span>
+            Saaph Ghar are passionate about creating peaceful homes.
+          </span>
+          <span>
+            We are a company specializing in interior design, organising and home cleaning services based in Stockholm.
+          </span>
+          <span>
+            Harmony, peacefulness and joy is always at the heart of every project we do.
+          </span>
+        </p>
+      </div>
+      <ul style="position: fixed; bottom: 0; margin: 0 auto; width: 100%; justify-content: center;">
+        <li><i class="icofont-instagram"></i></li>
+        <li><i class="icofont-facebook"></i></li>
+      </ul>
+    </div>
+  </body>
+</html>
